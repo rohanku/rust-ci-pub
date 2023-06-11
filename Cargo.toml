@@ -1,0 +1,8 @@
+[workspace]
+
+members = [
+  "rust-ci-helpers",
+  "rust-ci-lib",
+  "rust-ci-bin",
+  "tests",
+]

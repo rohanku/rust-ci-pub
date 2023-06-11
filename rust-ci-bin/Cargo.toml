@@ -1,0 +1,9 @@
+[package]
+name = "rust-ci-bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rust-ci-helpers = { path = "../rust-ci-helpers", version = "0.1.0" }
+rust-ci-lib = { path = "../rust-ci-lib", version = "0.1.0" }
+
