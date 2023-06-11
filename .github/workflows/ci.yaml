@@ -16,6 +16,8 @@ jobs:
       - uses: actions/checkout@v3
       - name: Say hello
         run: echo hello 2
+      - name: Say hello again
+        run: echo hello 3
       - name: Install Rust
         uses: dtolnay/rust-toolchain@1.70.0
         id: toolchain
