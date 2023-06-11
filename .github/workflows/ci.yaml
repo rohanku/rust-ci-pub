@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+      - name: Say hello
+        run: echo hello 2
       - name: Install Rust
         uses: dtolnay/rust-toolchain@1.70.0
         id: toolchain
